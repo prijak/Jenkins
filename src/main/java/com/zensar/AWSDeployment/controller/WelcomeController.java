@@ -14,8 +14,6 @@ public class WelcomeController {
 	
 	@GetMapping("hi")
 	public String sayHi(){
-		System.out.println("Hello world");
-		System.out.println("Hello world");
 		return"Hi Welcome to AWS Training";
 	}
 
