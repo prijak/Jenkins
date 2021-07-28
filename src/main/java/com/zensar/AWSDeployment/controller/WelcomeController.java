@@ -8,6 +8,7 @@ public class WelcomeController {
 	
 	@GetMapping("hello")
 	public String sayHello(){
+		System.out.println("Hello world");
 		return"Hello Welcome to AWS Training";
 	}
 	
